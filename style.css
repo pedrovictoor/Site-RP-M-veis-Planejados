@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #fff4e5;
+}
+header{
+    text-align: center;
+    width: 100%;
+}
+.banner{
+    background-color: #6f2400;
+    padding-bottom: 30px;
+}
+.topo{
+    width: 150%;
+    height: 120px;
+    background: linear-gradient(to right, #c1a17e, #2b0d00);
+    transform: translate(-10%, -70px);
+}
+.titulo{
+    text-align: center;
+    margin-top: -50px;
+}
+.titulo h1{
+    color: #fff4e5;
+    letter-spacing: 2px;
+}
+.titulo p{
+    color: #fff4e5;
+    letter-spacing: 2px;
+}
+.classe2{
+    background-image: url(../Imagens/logorp.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+}
+.classe2 button{
+    margin-top: 460px;
+}
+button{
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #c1a17e;
+    color: #fff4e5;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #9b7e59;
+}
+.classe3{
+    text-align: center;
+    color: #6f2400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin:  35px 0 80px 0;
+}
+.classe3 p{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 100px;
+}
+.classe3 h1{
+    font-size: 40px;
+    color: #9b7e59;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: #6f2400;
+    color: #fff4e5;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.footer a{
+    color: #fff4e5;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.classe4{
+    width: 45%;
+    text-align: center;
+}
+.classe4 h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.classe4 p{
+    margin: 10px 0;
+    font-size: 16px;
+}
+.classe4 a{
+    color: #fff4e5;
+    text-decoration: none;
+}
+.classe4 a:hover{
+    text-decoration: underline;
+}
+.icon{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.whatsapp-icon{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.whatsapp-icon img{
+    width: 80px;
+    height: 80px;
+}
+@keyframes jumpForward{
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+ .whatsapp-icon img:hover{
+   animation: jumpForward 1s ease;
+}
