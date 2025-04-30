@@ -13,16 +13,20 @@ header{
 .banner{
     background-color: #6f2400;
     padding: 50px 0;
+    position: relative;
 }
-.topo{
-    width: 112%;
-    height: 17px;
+.banner::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15px; /* ajustar a espessura da borda */
     background: linear-gradient(to right, #c1a17e, #441400);
-    transform: translate(-10%, 91px);
 }
 .titulo{
     text-align: center;
-    margin-top: -50px;
+    margin-top: -20px;
 }
 .titulo h1{
     color: #fff4e5;
