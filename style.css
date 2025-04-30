@@ -12,13 +12,13 @@ header{
 }
 .banner{
     background-color: #6f2400;
-    padding-bottom: 30px;
+    padding: 70px 0;
 }
 .topo{
     width: 111%;
-    height: 120px;
-    background: linear-gradient(to right, #c1a17e, #2b0d00);
-    transform: translate(-10%, -70px);
+    height: 20px;
+    background: linear-gradient(to right, #c1a17e, #441400);
+    transform: translate(-10%, 100px);
 }
 .titulo{
     text-align: center;
