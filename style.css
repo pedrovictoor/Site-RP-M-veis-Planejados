@@ -15,7 +15,7 @@ header{
     padding-bottom: 30px;
 }
 .topo{
-    width: 150%;
+    width: 115%;
     height: 120px;
     background: linear-gradient(to right, #c1a17e, #2b0d00);
     transform: translate(-10%, -70px);
@@ -118,6 +118,7 @@ button:hover{
     vertical-align: middle;
     margin-right: 8px;
 }
+
 .whatsapp-icon{
     position: fixed;
     bottom: 30px;
