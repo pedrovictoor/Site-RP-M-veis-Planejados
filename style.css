@@ -140,3 +140,20 @@ button:hover{
  .whatsapp-icon img:hover{
    animation: jumpForward 1s ease;
 }
+.email {
+    font-size: 16px;
+    color: #fff4e5;
+    text-decoration: none;
+    display: inline-block;
+    word-break: break-word;
+    /* margin-left: 2px; */
+    vertical-align: middle;
+}
+.email-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin: 10px 0;
+    padding-left: 2px;
+}
