@@ -7,15 +7,46 @@ body{
     background-color: #fff4e5;
 }
 header{
-    text-align: center;
     width: 100%;
+}
+.lista{
+    text-align: right;
+    padding-right: 30px;
+    margin-top: -40px;
+}
+.lista nav li{
+    display: inline-block;
+}
+.lista nav a{
+    color: #fff4e5;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color 1s ease;
+}
+.lista nav a:hover{
+    animation: jumpForward 1s ease;
+    text-decoration: underline;
+}
+  @keyframes jumpForward{
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.2);}
+    100% {transform: scale(1);}
 }
 .banner{
     background-color: #6f2400;
     padding: 50px 0;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
-.banner::after {
+.banner::after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -26,7 +57,6 @@ header{
 }
 .titulo{
     text-align: center;
-    margin-top: -20px;
 }
 .titulo h1{
     color: #fff4e5;
@@ -42,6 +72,7 @@ header{
     background-repeat: no-repeat;
     text-align: center;
     font-size: 30px;
+    margin-top: 230px;
 }
 .classe2 button{
     margin-top: 460px;
@@ -131,11 +162,6 @@ button:hover{
 .whatsapp-icon img{
     width: 80px;
     height: 80px;
-}
-@keyframes jumpForward{
-    0%   {transform: scale(1);}
-    50%  {transform: scale(1.2);}
-    100% {transform: scale(1);}
 }
  .whatsapp-icon img:hover{
    animation: jumpForward 1s ease;
