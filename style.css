@@ -61,10 +61,7 @@ header{
 .titulo h1{
     color: #fff4e5;
     letter-spacing: 2px;
-}
-.titulo p{
-    color: #fff4e5;
-    letter-spacing: 2px;
+    margin-top: 20px;
 }
 .classe2{
     background-image: url(../Imagens/logorp.jpg);
@@ -72,7 +69,7 @@ header{
     background-repeat: no-repeat;
     text-align: center;
     font-size: 30px;
-    margin-top: 230px;
+    margin-top: 5px;
 }
 .classe2 button{
     margin-top: 460px;
@@ -84,8 +81,8 @@ button{
     color: #fff4e5;
     border: none;
     border-radius: 30px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    /* cursor: pointer; */
+    /* transition: background-color 0.3s ease; */
 }
 button:hover{
     background-color: #9b7e59;
@@ -95,7 +92,7 @@ button:hover{
     color: #6f2400;
     font-size: 20px;
     letter-spacing: 2px;
-    margin:  35px 0 80px 0;
+    margin: 35px 0 80px 0;
 }
 .classe3 p{
     text-transform: uppercase;
